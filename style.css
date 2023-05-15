@@ -21,9 +21,46 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+#numOfWords
+{ 
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+    align-content: center;
+    align-self: center;
+    border: 2px solid rgb(231, 221, 221) ;
+    font: 100 1rem sans-serif;
+
+}
+
+button
+{
+    color: aliceblue;
+    background-color: rgb(181, 41, 41);
+    padding: 20px;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid rgb(44, 209, 44);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+button:hover
+{
+    background-color: rgb(130, 209, 12);
+
+}
+
 .paras
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(202, 245, 83);
     margin: 20px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 20px;
 }
